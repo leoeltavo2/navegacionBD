@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.ver.persona.ModificarPersonaActivity">
+
+    <EditText
+        android:id="@+id/etModNombrePersona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="15"
+        android:hint="Escribe el nombre" />
+
+    <EditText
+        android:id="@+id/etModTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="15"
+        android:hint="Escribe tu telefono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etModDomicilio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="15"
+        android:hint="Escribe el domicilio" />
+
+    <EditText
+        android:id="@+id/etModEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="15"
+        android:hint="Escribe tu correo"
+        android:inputType="textEmailAddress" />
+
+    <Spinner
+        android:id="@+id/ModSpinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnModPersona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#64B5F6"
+        android:text="Modificar persona"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
